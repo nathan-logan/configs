@@ -1,0 +1,39 @@
+[alias]
+        c = commit
+        cmsg = commit -m
+        a = add --all
+        s = status
+        ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate
+        pub = "!git push -u origin $(git branch --show-current)"
+        co = checkout
+        cob = checkout -b
+        f = fetch -p
+        cmain = checkout main
+        pmain = pull origin main
+        head = reset --hard HEAD
+        whatadded = log --diff-filter=A
+        sw = switch
+        cp = cherry-pick
+        # lb = list branches
+        lb = branch -a
+        delb = branch -D
+        # rename a branch
+        rn = branch -m
+        force = "!git push origin +$(git branch --show-current)"
+        # short for update, just fetches branch changes & pulls the current branch
+        upd = "!git f && git pull"
+        cont = rebase --continue
+        abort = rebase --abort
+        pullr = "!git pull origin $1 --rebase #"
+        debug = !GIT_TRACE=1 git
+        amend = commit --amend
+        unstage = reset @
+[core]
+        pager = diff-so-fancy | less --tabs=4 -RFX
+        editor = code --wait # changes the default editor to VSCode
+[rebase]
+        instructionFormat = %s [%an] # add the commit author to the end of each line
+[interactive]
+        diffFilter = diff-so-fancy --patch
+[commit]
+        template = <path to commit template>
