@@ -1,4 +1,4 @@
-# Defined via `source`
-function dev --description 'alias dev=npm run dev'
-  npm run dev $argv; 
+function dev --description 'alias dev yarn dev'
+  yarn dev $argv
+        
 end
