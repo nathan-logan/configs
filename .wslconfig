@@ -1,5 +1,2 @@
 [wsl2]
 networkingMode=mirrored
-
-[interop]
-appendWindowsPath=false
