@@ -40,5 +40,6 @@
 11. Copy the fish functions - `cp ./fish-functions/* ~/.config/fish/functions`
 12. Copy the Git config - `cp ./.gitconfig ~/`
 13. Copy the SSH config and replace the GitHub key file path with the one generated above
-14. Install `nvm` - https://github.com/jorgebucaran/nvm.fish
-15. Install `ni` - https://github.com/antfu-collective/ni
+14. Install autopair https://github.com/jorgebucaran/autopair.fish
+15. Install `nvm` - https://github.com/jorgebucaran/nvm.fish
+16. Install `ni` - https://github.com/antfu-collective/ni
