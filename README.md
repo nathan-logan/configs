@@ -6,9 +6,9 @@
 
    https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-gb&gl=AU
 
-2. Download & install the JetBrains Mono font
+2. Download & install the JetBrains Mono Nerd font
 
-   https://www.jetbrains.com/lp/mono/
+   https://www.nerdfonts.com/font-downloads
 
 3. Replace the terminal settings JSON with `terminal-settings.json`
 
