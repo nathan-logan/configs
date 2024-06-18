@@ -6,9 +6,9 @@
 
    https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=en-gb&gl=AU
 
-2. Download & install the JetBrains Mono Nerd font
+2. Download & install the [Monaspace](https://monaspace.githubnext.com/) Nerd font
 
-   https://www.nerdfonts.com/font-downloads
+   https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Monaspace
 
 3. Replace the terminal settings JSON with `terminal-settings.json`
 
