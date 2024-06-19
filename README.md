@@ -36,11 +36,7 @@
 6. Copy the windows WSL config `cp ./.wslconfig /mnt/c/Users/{username}`
 7. Copy the distro-only WSL config `sudo cp ./wsl.conf /etc`
 8. Reboot WSL from PowerShell
-9. Add VS Code to the path `fish_add_path -U /mnt/c/Users/{username}/AppData/Local/Programs/Microsoft\ VS\ Code/bin`
-10. Copy the Starship config - `cp ./startship.toml ~/.config`
-11. Copy the fish functions - `cp ./fish-functions/* ~/.config/fish/functions`
-12. Copy the Git config - `cp ./.gitconfig ~/`
-13. Copy the SSH config and replace the GitHub key file path with the one generated above
-14. Install autopair https://github.com/jorgebucaran/autopair.fish
-15. Install `nvm` - https://github.com/jorgebucaran/nvm.fish
-16. Install `ni` - https://github.com/antfu-collective/ni
+9. Copy the SSH config and replace the GitHub key file path with the one generated above
+10. Install autopair https://github.com/jorgebucaran/autopair.fish
+11. Install `nvm` - https://github.com/jorgebucaran/nvm.fish
+12. Install `ni` - https://github.com/antfu-collective/ni
