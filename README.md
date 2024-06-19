@@ -10,7 +10,7 @@
 
    https://www.nerdfonts.com/font-downloads
 
-3. Replace the terminal settings JSON with `terminal-settings.json`
+3. Install the [Gruvbox Material theme](https://gist.github.com/sainnhe/587a1bba123cb25a3ed83ced613c20c0) to match nvim
 
 ## Setting up WSL terminal
 
