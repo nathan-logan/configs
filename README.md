@@ -11,6 +11,7 @@
    https://www.nerdfonts.com/font-downloads
 
 3. Install the [Gruvbox Material theme](https://gist.github.com/sainnhe/587a1bba123cb25a3ed83ced613c20c0) to match nvim
+4. Configure the default theme, JetBrains font, and font size of 11
 
 ## Setting up WSL terminal
 
