@@ -1,7 +1,13 @@
+AddKeysToAgent yes
+
 Host bitbucket.org
   HostName bitbucket.org
-  IdentityFile ~/.ssh/id_bitbucket
+  IdentityFile ~/.ssh/bitbucket
 
 Host github.com
   HostName github.com
   IdentityFile ~/.ssh/github
+
+Host struo.bitbucket.org
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/bitbucket_struo
